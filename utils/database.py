@@ -7,8 +7,10 @@ def get_db_connection():
             f"DRIVER={{ODBC Driver 17 for SQL Server}};"
             f"SERVER={Config.SQL_SERVER};"
             f"DATABASE={Config.DATABASE};"
-            f"Trusted_Connection=yes;"
-        )
+            f"UID={Config.SQL_UID};"
+            f"PWD={Config.SQL_PWD};"
+            "Encrypt=yes;"
+)
         return conn
     except Exception as e:
         print(f"Database connection error: {e}")
