@@ -10,5 +10,3 @@ venv/
 *.log
 Uploads/
 *.env
-ml_model/*.h5
-ml_model/*.pkl
