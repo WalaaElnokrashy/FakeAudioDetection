@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.VSCodeCounter/
+.idea/
+*.log
+Uploads/
+*.env
+ml_model/*.h5
+ml_model/*.pkl
